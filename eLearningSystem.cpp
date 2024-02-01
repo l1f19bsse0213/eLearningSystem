@@ -3,9 +3,11 @@ using namespace std;
 class eLearningSystem
 {
 private:
-   
+   string studentName;
+   string studentEmail;
+   string studentcredentials;
 public:
-   void accessCourse();
+   bool accessCourse();
    void interactInstructor();
    bool userAuthentication ();
    void studentEnrollment(); 
